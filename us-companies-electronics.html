@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>US Electronics Companies</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <h1>US Electronics Companies</h1>
-  <table id="company-table">
+  <table id="companies-table">
     <thead>
       <tr>
         <th>Company</th>
@@ -19,32 +19,34 @@
   </table>
 
   <script>
-    async function loadAndDisplayCompanies() {
-      const response = await fetch('us-companies-electronics.txt');
-      const text = await response.text();
-      const rows = text.trim().split('\n');
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch("us-companies-electronics.txt")
+        .then(response => response.text())
+        .then(data => {
+          const lines = data
+            .split("\n")
+            .map(line => line.trim())
+            .filter(line => line.length > 0);
 
-      const data = rows.map(line => {
-        const [company, city, state] = line.split(',').map(s => s.trim());
-        return { company, city, state };
-      });
+          const uniqueLines = Array.from(new Set(lines));
 
-      data.sort((a, b) => a.company.localeCompare(b.company));
+          const companies = uniqueLines.map(line => {
+            const [name, city, state] = line.split(",").map(s => s.trim());
+            return { name, city, state };
+          });
 
-      const tbody = document.querySelector('#company-table tbody');
-      data.forEach((entry, idx) => {
-        const tr = document.createElement('tr');
-        if (idx % 2 === 1) tr.classList.add('alt');
-        tr.innerHTML = `
-          <td>${entry.company}</td>
-          <td>${entry.city}</td>
-          <td>${entry.state}</td>
-        `;
-        tbody.appendChild(tr);
-      });
-    }
+          companies.sort((a, b) => a.name.localeCompare(b.name));
 
-    loadAndDisplayCompanies();
+          const tbody = document.querySelector("#companies-table tbody");
+
+          companies.forEach(({ name, city, state }) => {
+            const row = document.createElement("tr");
+            row.innerHTML = `<td>${name}</td><td>${city}</td><td>${state}</td>`;
+            tbody.appendChild(row);
+          });
+        })
+        .catch(error => console.error("Error loading data:", error));
+    });
   </script>
 </body>
 </html>
