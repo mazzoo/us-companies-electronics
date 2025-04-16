@@ -20,23 +20,29 @@ body {
     overflow: hidden;
   }
   
+  /* header row: dark blue bg, white font */
+  thead {
+    background-color: #002868; /* flag blue */
+    color: white;
+    font-weight: bold;
+  }
+  
   th, td {
     padding: 1rem;
     text-align: left;
   }
   
-  thead {
-    background-color: #dfe8f3;
-    color: #222;
-    font-weight: bold;
+  /* alternating rows: white and soft red */
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
   }
   
-  tbody tr.alt {
-    background-color: #f1f5fa;
+  tbody tr:nth-child(odd) {
+    background-color: #fddede; /* light red / pinkish */
   }
   
   tbody tr:hover {
-    background-color: #e2ebf7;
+    background-color: #ffeef0; /* soft hover */
     cursor: default;
   }
   
