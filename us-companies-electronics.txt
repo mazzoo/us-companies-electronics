@@ -8,3 +8,61 @@ Cirrus Logic, Austin, TX
 onsemi, Scottsdale, AZ
 Syntiant, Irvine, CA
 InvenSense, San Jose, CA
+3M, Maplewood, MN
+ADI, Wilmington, MA
+Advanced Energy, Denver, CO
+Agilent Technologies, Santa Clara, CA
+AirBorn, Georgetown, TX
+Allegro MicroSystems, Manchester, NH
+Amphenol, Wallingford, CT
+AVX Corporation, Greenville, SC
+Bel Fuse Inc., West Orange, NJ
+Ideal Industries, Chicago, IL
+Cree LED, Durham, NC
+Emerson Electric, St. Louis, MO
+General Electric, Boston, MA
+Honeywell, Charlotte, NC
+Intel, Santa Clara, CA
+Jabil, St. Petersburg, FL
+Lattice Semiconductor, Hillsboro, OR
+Micron Technology, Boise, ID
+Molex, Lisle, IL
+Monolithic Power Systems, Kirkland, WA
+Motorola Solutions, Chicago, IL
+National Instruments, Austin, TX
+NVIDIA, Santa Clara, CA
+ON Semiconductor, Scottsdale, AZ
+Qorvo, Greensboro, NC
+Qualcomm, San Diego, CA
+Skyworks Solutions, Irvine, CA
+Texas Instruments, Dallas, TX
+Vishay Intertechnology, Malvern, PA
+Western Digital, San Jose, CA
+Xilinx, San Jose, CA
+Zebra Technologies, Lincolnshire, IL
+AMD, Santa Clara, CA
+Semtech, Camarillo, CA
+MACOM, Lowell, MA
+KOA Speer, Bradford, PA
+KEMET, Fort Lauderdale, FL
+Johanson Technology, Camarillo, CA
+Grayhill, La Grange, IL
+Cornell Dubilier, Liberty, SC
+CDE, Liberty, SC
+Ohmite, Warrenville, IL
+SEI Stackpole, Raleigh, NC
+Bourns Inc., Riverside, CA
+TTM Technologies, Santa Ana, CA
+Spectrum Control, Fairview, PA
+Silicon Laboratories, Austin, TX
+Sensata, Attleboro, MA
+Littelfuse, Chicago, IL
+Keystone Electronics, New Hyde Park, NY
+Kamaya, Fort Wayne, IN
+ETI Systems, Carlsbad, CA
+Delevan, East Aurora, NY
+CTS, Lisle, IL
+Carling Technologies, Plainville, CT
+Caddock, Roseburg, OR
+Advanced Energy, Denver, CO
+Adafruit, New York City, NY
