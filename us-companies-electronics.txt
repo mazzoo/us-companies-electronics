@@ -28,6 +28,7 @@ Lattice Semiconductor, Hillsboro, OR
 Micron Technology, Boise, ID
 Molex, Lisle, IL
 Monolithic Power Systems, Kirkland, WA
+MPS, Kirkland, WA
 Motorola Solutions, Chicago, IL
 National Instruments, Austin, TX
 NVIDIA, Santa Clara, CA
@@ -68,4 +69,10 @@ Advanced Energy, Denver, CO
 Adafruit, New York City, NY
 Abracon LLC, Austin, TX
 Diodes Incorporated, Plano, TX
+Lumissil, Milpitas, CA
+CnC Tech, Chandler, AZ
+Coilcraft, Cary, IL
+Integrated Silicon Solution, San Jose, CA
+ISSI, San Jose, CA
+Broadcom, Palo Alto, CA
 
