@@ -75,4 +75,6 @@ Coilcraft, Cary, IL
 Integrated Silicon Solution, San Jose, CA
 ISSI, San Jose, CA
 Broadcom, Palo Alto, CA
+ECS Inc., Lenexa, KS
+ambiq, Austin, TX
 
